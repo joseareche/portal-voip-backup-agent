@@ -187,3 +187,14 @@ VoIP, cloud telephony, and operator tooling with production criteria.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Lab analyzer & research
+
+Field tools used on Windows Server 2012 R2 labs (read-only):
+
+- [`tools/Find-VoipSwitchConfigs.ps1`](tools/Find-VoipSwitchConfigs.ps1)
+- [`tools/Find-MySQLConfigHits.ps1`](tools/Find-MySQLConfigHits.ps1)
+- [`tools/Peek-DbConfig-Redacted.ps1`](tools/Peek-DbConfig-Redacted.ps1)
+- [`tools/List-DesktopShortcuts.ps1`](tools/List-DesktopShortcuts.ps1)
+
+Full write-up of the capture investigation: **[docs/voipswitch-capture-investigation.md](docs/voipswitch-capture-investigation.md)**.
